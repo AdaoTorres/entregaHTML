@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;1,300&display=swap');
+
+ul{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+
+}
+
+.perfil{
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    gap: 20px
+
+}
+
+p{
+    font-size: 18px;
+    border: 1px solid black;
+    font-family: 'roboto', sans-serif;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+}
